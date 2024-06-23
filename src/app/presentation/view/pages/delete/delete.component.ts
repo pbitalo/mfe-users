@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-list-users',
+  selector: 'app-delete-users',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './list-users.component.html',
-  styleUrls: ['./list-users.component.scss'],
+  templateUrl: './delete.component.html',
+  styleUrls: ['./delete.component.scss'],
 })
-export class ListUsersComponent {}
+export class DeleteComponent {}

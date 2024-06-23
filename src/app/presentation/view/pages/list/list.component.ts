@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-insert-users',
+  selector: 'app-list-users',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './insert-users.component.html',
-  styleUrls: ['./insert-users.component.scss'],
+  templateUrl: './list.component.html',
+  styleUrls: ['./list.component.scss'],
 })
-export class InsertUsersComponent {}
+export class ListComponent {}

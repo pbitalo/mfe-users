@@ -5,10 +5,10 @@ import {
   RouterModule,
   withComponentInputBinding,
 } from '@angular/router';
-import { USERS_ROUTES } from './app/presentation/view/routes/users.routes';
-import { InsertUsersComponent } from './app/presentation/view/pages/insert/insert-users.component';
+import { USERS_ROUTES } from './app/presentation/view/routes';
+import { InsertComponent } from './app/presentation/view/pages/insert/insert.component';
 
-bootstrapApplication(InsertUsersComponent, {
+bootstrapApplication(InsertComponent, {
   providers: [
     importProvidersFrom(BrowserModule, RouterModule),
     provideRouter(USERS_ROUTES, withComponentInputBinding()),

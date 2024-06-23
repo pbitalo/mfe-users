@@ -1,6 +1,7 @@
 {
   "name": "mfe-users",
-  "version": "0.0.0",
+  "author": "Ítalo Pereira de Brito",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -19,7 +19,7 @@ export namespace ApplicationType {
       case ApplicationType.list:
         return ApplicationType.list;
       default:
-        throw 'Unknown Type';
+        throw 'Aplicação não encontrada';
     }
   }
 }

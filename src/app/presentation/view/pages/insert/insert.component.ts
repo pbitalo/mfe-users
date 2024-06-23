@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-delete-users',
+  selector: 'app-insert-users',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './delete-users.component.html',
-  styleUrls: ['./delete-users.component.scss'],
+  templateUrl: './insert.component.html',
+  styleUrls: ['./insert.component.scss'],
 })
-export class DeleteUsersComponent {}
+export class InsertComponent {}
